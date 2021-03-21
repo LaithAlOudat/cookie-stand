@@ -1,18 +1,5 @@
 'use strict';
 
-/*
-! Pat, IT'S NOT MY FRIEND
-* the minimum number of customers per hour >> minNumOfCustomers
-* the maximum number of customers per hour >> maxminNumOfCustomers
-* the average number of cookies purchased per customer >> avg
-* hours of operation per day >> hoursOfOperation // function tot 14h
-  - shops open at 6am >> startTime
-  - shops close at 8pm >> endTime
-  - current time >> currentTime
-  - work hours >> workHours
-* calculate the total number of cookies >> calcTotal // function
-*/
-
 function getRandomNumber(minNumber, maxNumber) {
   return Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
 }
