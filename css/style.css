@@ -1,0 +1,25 @@
+.SN {
+    text-align: center;
+    color: blue;
+    border: 5px solid black;
+   margin: 50px 50px 50px 50px;
+}
+   
+#SCimage {
+       max-width: 1000px;
+       max-height: 400px;
+   margin: 0px 350px 50px 350px;
+   border: 5px solid black;
+   border-radius: 400px;
+   border-style:double;
+}
+   
+.navBar {
+       text-align: center;
+       border: 5px solid black;
+       margin: 50px 50px 50px 50px;
+}
+
+html {
+  border: yellowgreen solid 50px ;
+}
