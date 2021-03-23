@@ -23,3 +23,15 @@
 html {
   border: yellowgreen solid 50px ;
 }
+
+#tableHeader {
+    color: blue;
+    border: 5px;
+   margin: px 50px 50px 50px;
+}
+
+#sales-Table {
+       border: 1px solid black;
+       width: 100%;
+       border-collapse: collapse;
+}
