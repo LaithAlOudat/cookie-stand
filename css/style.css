@@ -1,37 +1,116 @@
 .SN {
     text-align: center;
-    color: blue;
-    border: 5px solid black;
+    color:#f875aa;
+    border: 5px solid #f4f9f9;
    margin: 50px 50px 50px 50px;
 }
-   
-#SCimage {
+
+#upperDiv {
+       text-align: center;
+       margin: 0px 0px 0px 0px;
+}
+
+.UDimages {
+       width: 300px;
+       height: 300px;
+       margin: 30px 30px 30px 30px;
+       border-radius: 150px;
+       border: 10px solid #f875aa;
+}
+
+#midDiv {
+
+       text-align: center;
+       margin: 0px 0px 0px 0px;
+}
+
+#lowerDiv {
+       text-align: center;
+       margin: 0px 0px 0px 0px;
+}
+
+.LDimages {
+       width: 300px;
+       height: 300px;
+       margin: 30px 30px 30px 30px;
+       border-radius: 150px;
+       border: 10px solid #f875aa;
+}
+
+#FamilyImage {
        max-width: 1000px;
        max-height: 400px;
-   margin: 0px 350px 50px 350px;
-   border: 5px solid black;
+   margin: 0px 400px 50px 262.5px;
+   border: 5px solid #f875aa;
    border-radius: 400px;
-   border-style:double;
 }
    
 .navBar {
        text-align: center;
-       border: 5px solid black;
+       border: 5px solid #f4f9f9;
        margin: 50px 50px 50px 50px;
 }
 
+nav ul li {
+       display: inline;
+}
+
+#ConUs {
+
+       width: 400px;
+       height: 50px;
+       margin:10px 50px 10px 50px;
+       border-radius: 200px;
+       border: solid 1px #fbaccc;
+
+}
+
+#SalesI {
+       width: 400px;
+       height: 50px;
+       margin:10px 50px 10px 50px;
+       border-radius: 200px;
+       border: solid 1px #fbaccc;
+}
+
 html {
-  border: yellowgreen solid 50px ;
+  border: #f875aa solid 20px ;
 }
 
 #tableHeader {
-    color: blue;
+    color: #f875aa;
     border: 5px;
    margin: px 50px 50px 50px;
 }
 
 #sales-Table {
-       border: 1px solid black;
+       border: 1px solid #f875aa;
        width: 100%;
        border-collapse: collapse;
+       color: #f875aa;
+}
+
+#HomePageI {
+       width: 400px;
+       height: 50px;
+       margin:10px 50px 10px 50px;
+       border-radius: 200px;
+       border: solid 1px #fbaccc;
+}
+
+body.main {
+       text-align: center;
+}
+
+#ADD {
+       float: left;
+       text-align: left;
+       margin-right: 200px;
+       color: #f875aa;
+}
+
+#WH {
+       float: left;
+       text-align: left;
+       color:#f875aa;
 }
