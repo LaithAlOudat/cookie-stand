@@ -24,6 +24,44 @@
     <table id="sales-Table"></table>
     <section id="cookie-stand">
     </section>
+
+    <!-- <section id="FormSection">
+      <form>
+        <fieldset>
+          <legend>Add a new branches:</legend>
+          <label for="Branch">Branch: </label>
+          <input type=" text" name="Branch" id="Branch">
+          <br><br>
+          <label for="">Minimum Customer :</label>
+          <input type="text" name="MinCustomer" id="MinCustomer">
+          <br><br>
+          <label for="">Maximum Customer :</label>
+          <input type="text" name="MaxCustomer" id="MaxCustomer">
+          <br><br>
+          <label for="">Average Sales :</label>
+          <input type="text" name="AvgSales" id="AvgSales">
+          <br><br>
+          <input type="submit" value="Add new branch">
+        </fieldset>
+      </form>
+    </section> -->
+
+    <section class="create-branch-section">
+      <form action="" method="POST" id="add-branch" class="add-branch">
+        <fieldset class="box">
+          <legend>Add new branch :</legend>
+          <label for="locationName">Branch Name:</label>
+          <input type="text" name="locationName" id="locationName"> <br><br>
+          <label for="minCustomersPerHour">Minimum Customers/hour:</label>
+          <input type="text" name="minCustomersPerHour" id="minCustomersPerHour"> <br><br>
+          <label for="maxCustomersPerHour">Maximum Customers/Hour:</label>
+          <input type="text" name="maxCustomersPerHour" id="maxCustomersPerHour"> <br><br>
+          <label for="avgCookiesPurchasedPerHour">Average Purchased Cookies/Customer:</label>
+          <input type="text" name="avgCookiesPurchasedPerHour" id="avgCookiesPurchasedPerHour"><br><br>
+          <input type="submit" class="btn-submit" value="Add a new branch">
+        </fieldset>
+      </form>
+    </section>
   </main>
   <footer>
   </footer>
