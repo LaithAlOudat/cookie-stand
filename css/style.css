@@ -2,7 +2,10 @@
     text-align: center;
     color:#f875aa;
     border: 5px solid #f4f9f9;
-   margin: 50px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
 }
 
 #upperDiv {
@@ -81,6 +84,7 @@ html {
     color: #f875aa;
     border: 5px;
    margin: px 50px 50px 50px;
+   font-family: sans-serif;
 }
 
 #sales-Table {
@@ -88,6 +92,8 @@ html {
        width: 100%;
        border-collapse: collapse;
        color: #f875aa;
+       background-color:rgb(102, 9, 55);
+       font-family: sans-serif;
 }
 
 #HomePageI {
@@ -107,10 +113,20 @@ body.main {
        text-align: left;
        margin-right: 200px;
        color: #f875aa;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 #WH {
        float: left;
        text-align: left;
        color:#f875aa;
+       
+}
+
+form {
+       background-color:rgb(102, 9, 55);
+ color:#f875aa;
+ font-family: sans-serif;      
+ margin-top: 20px;
 }
