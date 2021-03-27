@@ -121,7 +121,8 @@ body.main {
        float: left;
        text-align: left;
        color:#f875aa;
-       
+       font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 form {
